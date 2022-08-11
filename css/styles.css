@@ -1,0 +1,177 @@
+
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+font-family: "Montserrat-Bold";
+font-size: 2rem;
+font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+.contanier-fluid{
+  padding: 3% 12% 7%;
+}
+
+/* navigation Bar */
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.downlod-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Section Features */
+
+#features{
+  padding: 6% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box{
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+.carousel-item{
+padding: 6% 10%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-card{
+  padding: 3% 2%;
+}
+
+
+/* call to Action Section */
+
+#cta{
+  text-align: center;
+  background-color:  #ff4c68;
+  padding: 6% 15%;
+  color: #fff;
+}
+
+.cta-text{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  padding: 7% 15% 4%;
+}
+
+.fab-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width: 991.50px) {
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
